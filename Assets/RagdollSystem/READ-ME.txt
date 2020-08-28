@@ -1,0 +1,19 @@
+uau! você lê esses aquivos? to surpreso...
+
+1- é necessario a utilização do sistema de FastIK, um asset na asset Store, se ele não existir mais veja um sistema de IK para colocar no "Ghost IK" qualuqer sistema irá funcionar...
+2- Isto é apenas para estudo, com o objetivo de visualizar com mais detalhes como foi feita a aplicação do IK com o Hinge Joints...
+3- Asset Feito Por The RedStoneBr (https://www.youtube.com/channel/UCQ4t3c9MA_Jk0Zn9VzLgeIg) e ele é livre para ser utilizado/modificado.
+4- preste atenção nas rotações dos ossos !!!
+5- Utilize o Ghost IK (prafab) para seu ragdoll ele já esta configurado e rotacionado corretamente.
+
+Qualquer erro reveja o video ou estude este asset.
+
+
+
+
+
+
+Asset criado para fins de estudo e melhor compreenção do sistema de "Ghost IK" tendo os recursos necessarios para a visualização completa e detalhada do sistema como um todo.
+
+
+Este asset passa a ser de responsabilidade da aquele que o adquiriu, qualquer uso/modificações, não inclusas não pertencem a este ativo em seu estado original.
