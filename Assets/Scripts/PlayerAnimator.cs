@@ -15,7 +15,7 @@ public class PlayerAnimator : MonoBehaviour
 {
     public String currentAnimation = BOOL_IDLE;
 
-    Animator anim;
+    public Animator anim;
     private const String BOOL_IDLE = "idle";
     private const String BOOL_WALK = "walk";
     private const String BOOL_RUN = "run";
@@ -66,13 +66,16 @@ public class PlayerAnimator : MonoBehaviour
 
         if(movement.magnitude > movementTol)
         {
+            Animate(anim, "walk");
+
             if(Input.GetKey(KeyCode.LeftShift))
             {
-                Animate(anim,"run");
+               // Animate(anim,"run");
+               anim.speed = 2;
             }
             else
             {
-                Animate(anim, "walk");
+               anim.speed = 1;
             }
         }
         else if(anim.GetBool("curl"))
