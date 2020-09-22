@@ -19,7 +19,8 @@ public class FixDirection : MonoBehaviour
 
         if(upFixed)
         {
-            transform.LookAt(transform, Vector3.up);
+           //transform.LookAt(transform, transform.forward);
+            transform.rotation.SetLookRotation(Vector3.forward);
         }
     }
 }

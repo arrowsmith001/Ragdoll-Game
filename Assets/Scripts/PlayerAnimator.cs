@@ -23,7 +23,6 @@ public class PlayerAnimator : MonoBehaviour
 
     void Awake()
     {
-        this.anim = this.GetComponent<Animator>();
         Animate(anim, "idle");
     }
 

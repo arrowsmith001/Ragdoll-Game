@@ -16,6 +16,8 @@ public class CopyRotation : MonoBehaviour
         // = new Quaternion(rot.x, toCopy.rotation.y, rot.z, rot.w);
 
         Quaternion q = Quaternion.FromToRotation(transform.forward, toCopy.forward) * transform.rotation;
+        q.x = transform.rotation.x;
+        q.z = transform.rotation.z;
         transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.deltaTime * rotSpeed);
 
     }
